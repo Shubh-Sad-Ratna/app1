@@ -1,0 +1,12 @@
+.head{
+    width:100%;
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+}
+button{
+    height: 50px;
+}
