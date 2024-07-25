@@ -1,7 +1,7 @@
 
-const HeaderCardButton=()=>{
+const HeaderCardButton=(props)=>{
  return(
-    <button>
+    <button onClick={props.onClick}>
         <span>CARD</span>
         <span>3</span>
     </button>

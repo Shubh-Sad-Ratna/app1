@@ -6,7 +6,7 @@ const Header=(props)=>{
         <>
             <header className={classes.head}>
                 <h1>React Meals</h1>
-                <HeaderCardButton/>
+                <HeaderCardButton onClick={props.onShowCart}/>
             </header>
             <div>
                 <img src={image} alt="A tabel full of delicious food"></img>

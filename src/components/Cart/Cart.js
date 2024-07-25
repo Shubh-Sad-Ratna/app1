@@ -15,7 +15,7 @@ const Cart=(props)=>{
                 <span>35</span>
             </div>
             <div>
-                <button>Close</button>
+                <button onClick={props.onClose}>Close</button>
                 <button>Order</button>
             </div>
         </div>
